@@ -4,6 +4,7 @@
 }
 #header {
   padding: 20px;
+  margin: 50px;
   text-align: center;
 }
 #searchbar {
@@ -75,7 +76,6 @@
    height: 100vh;
    z-index: -1; /* Ensure it's behind all content */
    pointer-events: none; /* Allow clicks to pass through */
-   background-color: black;
 }
 
 #content {
@@ -84,3 +84,12 @@
   margin-top: -4%;
   position: relative; /* Keeps it above the particles */
   z-index: 1; /* Ensure it's higher than the particles */
+}
+
+  .center {
+    align-self: center;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

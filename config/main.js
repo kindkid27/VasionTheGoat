@@ -69,4 +69,3 @@ document
 document.getElementById("title").innerHTML = `${sitename}`;
 
 document.getElementById("subtitle").innerHTML = `${subtext}`
-
